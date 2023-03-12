@@ -1,0 +1,94 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor": "#f8f9fa",
+				"navigationBarTextStyle": "black"
+			}
+		},{
+			"path": "pages/schedule/schedule",
+			"style": {
+				"navigationBarTitleText": "我的课表",
+				"navigationBarBackgroundColor": "#364fc7",
+				"navigationBarTextStyle": "white"
+			}
+		},{
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"navigationBarBackgroundColor": "#364fc7",
+				"navigationBarTextStyle": "white"
+			}
+		},{
+			"path": "pages/me/me",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},{
+			"path": "pages/stuinfo/stuinfo",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"navigationBarBackgroundColor": "#364fc7",
+				"navigationBarTextStyle": "white"
+			}
+		},{
+			"path": "pages/edit/edit",
+			"style": {
+				"navigationBarTitleText": "编辑信息",
+				"navigationBarBackgroundColor": "#364fc7",
+				"navigationBarTextStyle": "white"
+			}
+		},{
+			"path": "pages/about/about",
+			"style": {
+				"navigationBarTitleText": "关于",
+				"navigationBarBackgroundColor": "#364fc7",
+				"navigationBarTextStyle": "white"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "喜鹊儿",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"height": "50px",
+		"backgroundColor": "#ffffff",
+		"color": "#000000",
+		"selectedColor": "#038cea",
+		"midButton": {
+			"iconPath": "static/xiqueres/_8m.png",
+			"selectedIconPath": "static/xiqueres/_8m.png",
+			"text": "社交圈",
+			"height": "60px",
+			"iconWidth": "40px"
+		},
+		"list": [
+			{
+				"iconPath": "static/xiqueres/_0y.png",
+				"selectedIconPath": "static/xiqueres/B8k.png",
+				"pagePath": "pages/index/index",
+				"text": "首页"
+			},{
+				"iconPath": "static/xiqueres/wXc.png",
+				"selectedIconPath": "static/xiqueres/tNt.png",
+				"pagePath": "pages/schedule/schedule",
+				"text": "我的课表"
+			},{
+				"iconPath": "static/xiqueres/pAW.png",
+				"selectedIconPath": "static/xiqueres/Doj.png",
+				"pagePath": "pages/message/message",
+				"text": "消息"
+			},{
+				"iconPath": "static/xiqueres/SUR.png",
+				"selectedIconPath": "static/xiqueres/YIB.png",
+				"pagePath": "pages/me/me",
+				"text": "我"
+			}
+		]
+	}
+}
